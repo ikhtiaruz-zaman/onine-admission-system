@@ -1,0 +1,69 @@
+:root{
+    --primary: rgb(88, 42, 255)
+}
+body{
+    background-color: var(--primary);
+    width:100%;
+}
+
+h1 {color: white;
+text-align: center;
+font-size: 3rem;
+}
+p {color: yellow;
+    text-align: center;
+    font-size: 2rem;
+}
+form{
+    width:50%;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin: 1em auto;
+    background-color: white;
+    padding: 3em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.13);
+}
+form div {
+    margin-bottom: 1em;
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: center;
+
+    }
+    input[type="text"],input[type="number"],input[type="date"],textarea{
+outline: none;
+border:none;
+padding: .8em 1.2em;
+width: 50%;
+background: rgba(0, 0, 0, 0.096);
+    }
+    label{
+        color: rgb(9, 9, 22);
+    }
+    /* textarea{
+background: rgba(0, 0, 0, 0.096);
+width: 50%;
+
+    } */
+    div.submit input {
+    margin-left: 165px;
+    padding:.5em 1em;
+    background: var(--primary);
+    border: none;
+    outline: none;
+    color:white;
+    font-size: 1rem;
+    text-transform: capitalize;
+    }
+    label.field {
+    display: block;
+    float: left;
+    margin-right: 1px;
+    width: 130px;
+    text-align: left;
+    }
+    label.required {
+    /* font-weight: bold; */
+    }
